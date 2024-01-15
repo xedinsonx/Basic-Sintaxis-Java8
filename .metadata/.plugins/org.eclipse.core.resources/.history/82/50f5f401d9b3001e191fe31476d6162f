@@ -1,0 +1,40 @@
+package prueba;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+			
+		double salariosemanal;
+	    double salariohora;
+	    double horastrabajadas;
+	    double diastrabajados;
+	    double sueldosemanal;
+	    double sueldohora;
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		
+		salariohora = Double.parseDouble(JOptionPane.showInputDialog("Ingrese salario por Hora:"));
+		salariosemanal = Double.parseDouble(JOptionPane.showInputDialog("Ingrese salario por Semana"));
+		horastrabajadas = Double.parseDouble(JOptionPane.showInputDialog("Ingrese las Horas Trabajadas"));
+		diastrabajados = Double.parseDouble(JOptionPane.showInputDialog("Ingrese los Dias Trabajados"));
+		
+		sueldosemanal = salariohora*diastrabajados;
+		sueldohora = salariosemanal/horastrabajadas;
+		
+		System.out.println("el salario a la semana seria : " +sueldosemanal);
+		System.out.println("el salario por hora seria: " +sueldohora);
+	
+		
+		
+		
+		
+
+	}
+
+}

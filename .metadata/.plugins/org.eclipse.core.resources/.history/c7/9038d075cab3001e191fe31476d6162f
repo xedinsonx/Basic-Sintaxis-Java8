@@ -1,0 +1,12 @@
+package prueba;
+
+public class Datos {
+	
+	public static void main(String[] args) {
+		
+		String palabra = "Hola que tal?";
+		
+		System.out.println("EL Saludo "+palabra);
+	}
+
+}

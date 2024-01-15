@@ -1,0 +1,13 @@
+package Prueba;
+
+public class hola {
+
+	public static void main(String[] args) {
+		
+		long entero= 12456000324;
+		
+		System.out.println("El numero es: "+entero);
+
+	}
+
+}
